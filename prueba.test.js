@@ -30,3 +30,12 @@ test('multiplica cada numero en el array', () => {
     expect(exerciseOne.multiplicaCadaNumero([1,2,3,4],2)).toEqual([2,4,6,8])
     expect(exerciseOne.multiplicaCadaNumero([10,5,7,8],4)).toEqual([40,20,28,32])
 })
+test('Encuentra el numero mayor y sumalo', () => {
+    expect(exerciseOne.encuentraMayor([10,2,34,8,90,3])).toBeTruthy()
+    expect(exerciseOne.encuentraMayor([105])).toBeFalsy()
+    expect(exerciseOne.encuentraMayor([121])).toBeTruthy()
+    expect(exerciseOne.encuentraMayor([40,4,7,18,50,30])).toBeTruthy()
+    expect(exerciseOne.encuentraMayor([1,5,66,30,17,9])).toBeFalsy()
+    
+    
+})
