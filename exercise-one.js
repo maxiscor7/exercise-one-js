@@ -58,6 +58,14 @@ module.exports = {
         //ejemplo: si array es [10,4,30,1,50,17,43] ... 30, 50 y 43 son mayores a 25 y la suma de todos dan 123 por lo tanto deveras devolver true
         //escrive aqui abajo tu codigo:
       
+    },
+
+    binario(num){
+        // ejercisio: tendras que averiguar como funciona el calculo para convertir un numero decimal a binario
+        //ejemplo: si num = 7 deveras retornar 111 . si num es igual a 35 deveras retornar 100011 
+        // tip!, a veces el dato que devuelves puede ser un string o un numero mira en los test lo que necesitas devolver
+        //escrive aqui abajo tu codigo:
+        
     }
 
 };

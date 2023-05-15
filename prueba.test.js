@@ -39,3 +39,9 @@ test('Encuentra el numero mayor y sumalo', () => {
     
     
 })
+test('convierte decimal a binario', () => {
+    expect(exerciseOne.binario(115)).toBe(1110011)
+    expect(exerciseOne.binario(1080)).toBe(10000111000)
+    expect(exerciseOne.binario(7)).toBe(111)
+    
+})
