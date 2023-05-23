@@ -66,6 +66,13 @@ module.exports = {
         // tip!, a veces el dato que devuelves puede ser un string o un numero mira en los test lo que necesitas devolver
         //escrive aqui abajo tu codigo:
         
+    },
+    decimal(num){
+        // ejercisio: ahora tendras que hacer lo mismo pero al reves, tendras que averiguar como funciona el calculo para convertir un numero binario a decimal
+        //ejemplo: si num = 111 deveras retornar 7 . si num es igual a 100011 deveras retornar 35 
+        // tip!, a veces el dato que devuelves puede ser un string o un numero mira en los test lo que necesitas devolver
+        //escrive aqui abajo tu codigo:
+        
     }
 
 };

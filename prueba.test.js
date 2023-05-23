@@ -35,13 +35,15 @@ test('Encuentra el numero mayor y sumalo', () => {
     expect(exerciseOne.encuentraMayor([105])).toBeFalsy()
     expect(exerciseOne.encuentraMayor([121])).toBeTruthy()
     expect(exerciseOne.encuentraMayor([40,4,7,18,50,30])).toBeTruthy()
-    expect(exerciseOne.encuentraMayor([1,5,66,30,17,9])).toBeFalsy()
-    
-    
+    expect(exerciseOne.encuentraMayor([1,5,66,30,17,9])).toBeFalsy()    
 })
 test('convierte decimal a binario', () => {
     expect(exerciseOne.binario(115)).toBe(1110011)
     expect(exerciseOne.binario(1080)).toBe(10000111000)
-    expect(exerciseOne.binario(7)).toBe(111)
-    
+    expect(exerciseOne.binario(7)).toBe(111)  
+})
+test('convierte binario a decimal', () => {
+    expect(exerciseOne.decimal(1110011)).toBe(115)
+    expect(exerciseOne.decimal(10000111000)).toBe(1080)
+    expect(exerciseOne.decimal(111)).toBe(7) 
 })
